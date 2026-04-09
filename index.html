@@ -1,11 +1,11 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="id">
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>ARDENTA ARCADIA GLOBAL - Penyedia Air Bersih & Produk Sekam Berkualitas</title>
-  <meta name="description" content="ARDENTA ARCADIA GLOBAL - Penyedia air bersih pegunungan premium dan produk sekam/arang sekam berkualitas untuk berbagai kebutuhan industri, pertanian, dan komersial">
-  <meta name="keywords" content="air bersih, air pegunungan, sekam, arang sekam, pakan ternak, pertanian, depot air, kolam renang">
+  <title>ARDENTA ARCADIA GLOBAL - Material Industri & Konstruksi Berkualitas</title>
+  <meta name="description" content="PT Ardenta Arcadia Global menyediakan arang sekam (RHA), bata merah Jatiwangi, dan suplai air bersih pegunungan dengan kualitas terjaga, pasokan stabil, dan pengiriman terjadwal.">
+  <meta name="keywords" content="arang sekam, RHA, rice husk ash, bata merah jatiwangi, air bersih, material industri, konstruksi, majalengka">
   <!-- Favicons -->
   <link href="assets/img/ardenta-white.png" rel="icon">
   <link href="assets/img/ardenta-white.png" rel="apple-touch-icon">
@@ -35,14 +35,98 @@
       border-radius: 10px;
     }
 
+    .hero-highlights {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 16px;
+    }
+
+    .hero-highlights .highlight-badge {
+      background: rgba(255,255,255,0.12);
+      border: 1px solid rgba(255,255,255,0.3);
+      border-radius: 20px;
+      padding: 5px 14px;
+      font-size: 13px;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .hero-highlights .highlight-badge i {
+      color: #47b2e4;
+    }
+
+    .hero-short-desc {
+      margin-top: 14px;
+      font-size: 13.5px;
+      color: rgba(255,255,255,0.72);
+      font-style: italic;
+      border-left: 3px solid #47b2e4;
+      padding-left: 12px;
+    }
+
+    .benefits-list .benefit-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 14px;
+      margin-bottom: 20px;
+    }
+
+    .benefits-list .benefit-item .benefit-icon {
+      flex-shrink: 0;
+      width: 44px;
+      height: 44px;
+      background: #47b2e4;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      font-size: 18px;
+    }
+
+    .benefits-list .benefit-item .benefit-text strong {
+      display: block;
+      font-size: 15px;
+      margin-bottom: 3px;
+    }
+
+    .benefits-list .benefit-item .benefit-text span {
+      font-size: 13.5px;
+      color: #666;
+    }
+
+    .vision-mission-box {
+      background: #f8f9fa;
+      border-radius: 10px;
+      padding: 20px 24px;
+      margin-top: 20px;
+    }
+
+    .vision-mission-box h5 {
+      font-weight: 700;
+      color: #37517e;
+      margin-bottom: 8px;
+    }
+
+    .vision-mission-box ul {
+      padding-left: 18px;
+      margin-bottom: 0;
+    }
+
+    .vision-mission-box ul li {
+      margin-bottom: 5px;
+      font-size: 14px;
+    }
   </style>
 </head>
 <body class="index-page">
   <header id="header" class="header d-flex align-items-center fixed-top">
     <div class="container-fluid container-xl position-relative d-flex align-items-center">
       <a href="index.html" class="logo d-flex align-items-center me-auto">
-        <!-- Uncomment the line below if you also wish to use an image logo -->
-        <img src="assets/img/ardenta-white.png" alt="">
+        <img loading="lazy" src="assets/img/ardenta-white.png" alt="">
         <h1 class="sitename">ARDENTA ARCADIA GLOBAL</h1>
       </a>
       <nav id="navmenu" class="navmenu">
@@ -51,6 +135,7 @@
           <li><a href="#about">Tentang Kami</a></li>
           <li><a href="#services">Layanan</a></li>
           <li><a href="#products">Produk</a></li>
+          <li><a href="#why-us">Manfaat</a></li>
           <li><a href="#portfolio">Portfolio</a></li>
           <li><a href="#team">Team</a></li>
           <li><a href="#clients">Klien</a></li>
@@ -62,120 +147,116 @@
   </header>
 
   <main class="main">
-    <!-- beranda Section -->
+
+    <!-- Beranda Section -->
     <section id="beranda" class="hero section dark-background">
       <div class="container">
         <div class="row gy-4">
           <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center" data-aos="zoom-out">
-            <h1>Sumber Daya Alam Berkualitas untuk Kebutuhan Anda</h1>
-            <p>ARDENTA ARCADIA GLOBAL menyediakan air bersih pegunungan premium dan produk sekam berkualitas untuk berbagai kebutuhan industri, pertanian, dan komersial.</p>
-            <div class="d-flex">
-              <a href="#about" class="btn-get-started">Pelajari Lebih Lanjut</a>
-              <a href="tel:+6281395501785" class="btn-watch-video d-flex align-items-center"><i class="bi bi-telephone"></i><span>Hubungi Kami</span></a>
+            <h1>Solusi Material Industri &amp; Konstruksi yang Konsisten dan Siap Skala</h1>
+            <p>PT Ardenta Arcadia Global menyediakan arang sekam (RHA), bata merah Jatiwangi, dan suplai air bersih pegunungan dengan kualitas terjaga, pasokan stabil, dan pengiriman terjadwal.</p>
+            <div class="d-flex flex-wrap gap-2">
+              <a href="#contact" class="btn-get-started">Minta Penawaran Sekarang</a>
+              <a href="https://wa.me/6281220086470?text=Halo%20PT%20ARDENTA%20ARCADIA%20GLOBAL%2C%20saya%20ingin%20konsultasi%20kebutuhan%20material" target="_blank" class="btn-watch-video d-flex align-items-center"><i class="bi bi-whatsapp"></i><span>Konsultasi Kebutuhan Anda</span></a>
             </div>
+            <div class="hero-highlights">
+              <span class="highlight-badge"><i class="bi bi-patch-check-fill"></i> Kualitas material terstandarisasi</span>
+              <span class="highlight-badge"><i class="bi bi-boxes"></i> Pasokan stabil &amp; berkelanjutan</span>
+              <span class="highlight-badge"><i class="bi bi-truck"></i> Pengiriman tepat waktu</span>
+              <span class="highlight-badge"><i class="bi bi-headset"></i> Dukungan konsultasi teknis</span>
+            </div>
+            <p class="hero-short-desc">Kami membantu industri dan proyek konstruksi menghindari risiko material tidak konsisten, keterlambatan suplai, dan pemborosan biaya akibat supplier yang tidak profesional.</p>
           </div>
           <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-out" data-aos-delay="200">
-          <div class="hero-gallery">
-            <img src="assets/img/airbersih/air-industri.webp" class="img-fluid animated" alt="">
-            <img src="assets/img/sekam/sekam-1.webp" class="img-fluid animated" alt="">
-            <img src="assets/img/airbersih/kolam-1.webp" class="img-fluid animated" alt="">
-            <img src="assets/img/arangsekam/arang-sekam-2.webp" class="img-fluid animated" alt="">
+            <div class="hero-gallery">
+              <img src="assets/img/arangsekam/arang-sekam-1.webp" class="img-fluid animated" fetchpriority="high" alt="Arang Sekam RHA">
+              <img src="assets/img/sekam/sekam-1.webp" class="img-fluid animated" fetchpriority="high" alt="Sekam">
+              <img src="assets/img/airbersih/air-industri.webp" class="img-fluid animated" fetchpriority="high" alt="Air Bersih Industri">
+              <img src="assets/img/arangsekam/arang-sekam-2.webp" class="img-fluid animated" fetchpriority="high" alt="Arang Sekam">
+            </div>
           </div>
         </div>
-
       </div>
-    </section><!-- /Hero Section -->
+    </section><!-- /Beranda Section -->
 
     <!-- Clients Section -->
     <section id="clients" class="clients section light-background" style="margin-top: 70px;">
       <div class="container" data-aos="zoom-in">
         <div class="section-title">
           <h2>Klien Kami</h2>
-          <p>Kami dipercaya oleh berbagai perusahaan dan industri ternama</p>
+          <p>Kepercayaan klien dibangun dari konsistensi layanan dan kualitas produk yang kami jaga</p>
         </div>
         <div class="container" data-aos="fade-up" data-aos-delay="100">
           <div class="swiper init-swiper">
-          <script type="application/json" class="swiper-config">
-            {
-              "loop": true,
-              "speed": 600,
-              "autoplay": {
-                "delay": 1000
-              },
-              "slidesPerView": "auto",
-              "pagination": {
-                "el": ".swiper-pagination",
-                "type": "bullets",
-                "clickable": true
-              },
-              "breakpoints": {
-                "320": {
-                  "slidesPerView": 2,
-                  "spaceBetween": 40
-                },
-                "480": {
-                  "slidesPerView": 3,
-                  "spaceBetween": 60
-                },
-                "640": {
-                  "slidesPerView": 4,
-                  "spaceBetween": 80
-                },
-                "992": {
-                  "slidesPerView": 5,
-                  "spaceBetween": 120
-                },
-                "1200": {
-                  "slidesPerView": 6,
-                  "spaceBetween": 120
+            <script type="application/json" class="swiper-config">
+              {
+                "loop": true,
+                "speed": 600,
+                "autoplay": { "delay": 1000 },
+                "slidesPerView": "auto",
+                "pagination": { "el": ".swiper-pagination", "type": "bullets", "clickable": true },
+                "breakpoints": {
+                  "320": { "slidesPerView": 2, "spaceBetween": 40 },
+                  "480": { "slidesPerView": 3, "spaceBetween": 60 },
+                  "640": { "slidesPerView": 4, "spaceBetween": 80 },
+                  "992": { "slidesPerView": 5, "spaceBetween": 120 },
+                  "1200": { "slidesPerView": 6, "spaceBetween": 120 }
                 }
               }
-            }
-          </script>
-          <div class="swiper-wrapper align-items-center">
-            <div class="swiper-slide"><img src="assets/img/clients/clients-1.webp" class="img-fluid" alt="Klien Industri"></div>
-            <div class="swiper-slide"><img src="assets/img/clients/clients-2.webp" class="img-fluid" alt="Klien Pertanian"></div>
-            <div class="swiper-slide"><img src="assets/img/clients/clients-3.webp" class="img-fluid" alt="Klien Komersial"></div>
-            <div class="swiper-slide"><img src="assets/img/clients/clients-4.webp" class="img-fluid" alt="Klien Depot Air"></div>
-            <div class="swiper-slide"><img src="assets/img/clients/clients-5.webp" class="img-fluid" alt="Klien Peternakan"></div>
-            <div class="swiper-slide"><img src="assets/img/clients/clients-6.webp" class="img-fluid" alt="Klien Hotel"></div>
-            <div class="swiper-slide"><img src="assets/img/clients/clients-1.webp" class="img-fluid" alt="Klien Industri"></div>
-            <div class="swiper-slide"><img src="assets/img/clients/clients-2.webp" class="img-fluid" alt="Klien Pertanian"></div>
-            <div class="swiper-slide"><img src="assets/img/clients/clients-3.webp" class="img-fluid" alt="Klien Komersial"></div>
-            <div class="swiper-slide"><img src="assets/img/clients/clients-4.webp" class="img-fluid" alt="Klien Depot Air"></div>
-            <div class="swiper-slide"><img src="assets/img/clients/clients-5.webp" class="img-fluid" alt="Klien Peternakan"></div>
-            <div class="swiper-slide"><img src="assets/img/clients/clients-6.webp" class="img-fluid" alt="Klien Hotel"></div>
+            </script>
+            <div class="swiper-wrapper align-items-center">
+              <div class="swiper-slide"><img loading="lazy" src="assets/img/clients/clients-1.webp" class="img-fluid" alt="Klien Industri"></div>
+              <div class="swiper-slide"><img loading="lazy" src="assets/img/clients/clients-2.webp" class="img-fluid" alt="Klien Pertanian"></div>
+              <div class="swiper-slide"><img loading="lazy" src="assets/img/clients/clients-3.webp" class="img-fluid" alt="Klien Komersial"></div>
+              <div class="swiper-slide"><img loading="lazy" src="assets/img/clients/clients-4.webp" class="img-fluid" alt="Klien Konstruksi"></div>
+              <div class="swiper-slide"><img loading="lazy" src="assets/img/clients/clients-5.webp" class="img-fluid" alt="Klien Peternakan"></div>
+              <div class="swiper-slide"><img loading="lazy" src="assets/img/clients/clients-6.webp" class="img-fluid" alt="Klien Manufaktur"></div>
+              <div class="swiper-slide"><img loading="lazy" src="assets/img/clients/clients-7.webp" class="img-fluid" alt="Klien Industri 2"></div>
+              <div class="swiper-slide"><img loading="lazy" src="assets/img/clients/clients-8.webp" class="img-fluid" alt="Klien Pertanian 2"></div>
+              <div class="swiper-slide"><img loading="lazy" src="assets/img/clients/clients-1.webp" class="img-fluid" alt="Klien Industri"></div>
+              <div class="swiper-slide"><img loading="lazy" src="assets/img/clients/clients-2.webp" class="img-fluid" alt="Klien Pertanian"></div>
+              <div class="swiper-slide"><img loading="lazy" src="assets/img/clients/clients-3.webp" class="img-fluid" alt="Klien Komersial"></div>
+              <div class="swiper-slide"><img loading="lazy" src="assets/img/clients/clients-4.webp" class="img-fluid" alt="Klien Konstruksi"></div>
+            </div>
           </div>
-        </div>
         </div>
       </div>
     </section><!-- /Clients Section -->
 
     <!-- About Section -->
     <section id="about" class="about section">
-      <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>Tentang Kami</h2>
         <p>Mengenal lebih dekat PT ARDENTA ARCADIA GLOBAL</p>
-      </div><!-- End Section Title -->
+      </div>
 
       <div class="container">
         <div class="row gy-4">
           <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="100">
             <p>
-              <strong>PT ARDENTA ARCADIA GLOBAL</strong> adalah perusahaan yang berfokus pada penyediaan sumber daya alam berkualitas tinggi. Dengan komitmen untuk memberikan produk terbaik, kami telah melayani berbagai sektor industri selama lebih dari 10 tahun.
+              <strong>PT ARDENTA ARCADIA GLOBAL</strong> adalah perusahaan yang bergerak di bidang penyediaan material industri dan konstruksi. Fokus utama kami adalah menghadirkan solusi pasokan yang stabil, berkualitas, dan dapat diandalkan.
             </p>
+            <p>Kami memahami bahwa banyak proyek gagal efisien bukan karena desain, tetapi karena material yang tidak konsisten dan supplier yang tidak disiplin. Karena itu, kami membangun sistem kerja yang memastikan kualitas produk, ketepatan distribusi, dan kejelasan komunikasi.</p>
             <ul>
-              <li><i class="bi bi-check2-circle"></i> <span>Air bersih pegunungan dengan kualitas premium</span></li>
-              <li><i class="bi bi-check2-circle"></i> <span>Produk sekam dan arang sekam berkualitas tinggi</span></li>
-              <li><i class="bi bi-check2-circle"></i> <span>Layanan pengiriman tepat waktu dan terpercaya</span></li>
-              <li><i class="bi bi-check2-circle"></i> <span>Tim profesional dengan pengalaman luas</span></li>
+              <li><i class="bi bi-check2-circle"></i> <span>Produk dengan kualitas terukur dan konsisten</span></li>
+              <li><i class="bi bi-check2-circle"></i> <span>Stabilitas pasokan untuk kebutuhan klien</span></li>
+              <li><i class="bi bi-check2-circle"></i> <span>Layanan profesional dan responsif</span></li>
+              <li><i class="bi bi-check2-circle"></i> <span>Hubungan bisnis jangka panjang</span></li>
             </ul>
           </div>
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
-            <p>Kami memahami bahwa kualitas produk dan layanan adalah kunci keberhasilan bisnis Anda. Dengan standar kualitas yang ketat dan proses produksi yang terjamin, kami memastikan setiap produk yang kami kirim memenuhi ekspektasi tertinggi pelanggan kami.</p>
-            <p>Visi kami adalah menjadi mitra terpercaya dalam penyediaan sumber daya alam berkualitas yang mendukung pertumbuhan bisnis dan kelestarian lingkungan.</p>
-            <a href="#services" class="read-more"><span>Lihat Layanan Kami</span><i class="bi bi-arrow-right"></i></a>
+            <div class="vision-mission-box">
+              <h5><i class="bi bi-eye me-2"></i>Visi</h5>
+              <p class="mb-3">Menjadi mitra utama dalam penyediaan material industri yang terpercaya dan berkelanjutan.</p>
+              <h5><i class="bi bi-bullseye me-2"></i>Misi</h5>
+              <ul>
+                <li>Menyediakan produk dengan kualitas terukur dan konsisten</li>
+                <li>Menjaga stabilitas pasokan untuk kebutuhan klien</li>
+                <li>Memberikan layanan yang profesional dan responsif</li>
+                <li>Membangun hubungan bisnis jangka panjang</li>
+              </ul>
+            </div>
+            <a href="#services" class="read-more mt-3 d-inline-flex"><span>Lihat Layanan Kami</span><i class="bi bi-arrow-right"></i></a>
           </div>
         </div>
       </div>
@@ -183,54 +264,61 @@
 
     <!-- Services Section -->
     <section id="services" class="services section light-background">
-      <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>Layanan Kami</h2>
-        <p>Solusi lengkap untuk kebutuhan air bersih dan produk sekam Anda</p>
-      </div><!-- End Section Title -->
+        <p>Solusi lengkap penyediaan material industri dan konstruksi</p>
+      </div>
 
       <div class="container">
         <div class="row gy-4">
           <div class="col-xl-6 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="100">
             <div class="service-item position-relative">
-              <div class="icon"><i class="bi bi-droplet icon"></i></div>
-              <h2><a href="#portfolio" class="stretched-link">Penyedia Air Bersih Pegunungan</a></h2>
-              <h5>Kami menyediakan air bersih pegunungan berkualitas tinggi dengan kandungan mineral alami yang baik untuk kesehatan dan berbagai kebutuhan industri.</h5>
+              <div class="icon"><i class="bi bi-fire icon"></i></div>
+              <h2><a href="#products" class="stretched-link">Supply Material Industri</a></h2>
+              <h5>Penyediaan arang sekam (RHA) untuk kebutuhan industri dan pertanian dengan kualitas yang terjaga dan siap digunakan dalam skala besar.</h5>
               <div class="service-features">
-                <div class="feature-item">
-                  <i class="bi bi-check-circle"></i>
-                  <span>Untuk Pabrik & Industri</span>
-                </div>
-                <div class="feature-item">
-                  <i class="bi bi-check-circle"></i>
-                  <span>Untuk Kolam Renang</span>
-                </div>
-                <div class="feature-item">
-                  <i class="bi bi-check-circle"></i>
-                  <span>Untuk Depot Air Minum</span>
-                </div>
+                <div class="feature-item"><i class="bi bi-check-circle"></i><span>Arang Sekam (Rice Husk Ash)</span></div>
+                <div class="feature-item"><i class="bi bi-check-circle"></i><span>Kandungan silika tinggi</span></div>
+                <div class="feature-item"><i class="bi bi-check-circle"></i><span>Siap skala besar</span></div>
               </div>
             </div>
           </div><!-- End Service Item -->
 
           <div class="col-xl-6 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="200">
             <div class="service-item position-relative">
-              <div class="icon"><i class="bi bi-tree icon"></i></div>
-              <h2><a href="#portfolio" class="stretched-link">Penyedia Sekam & Arang Sekam</a></h2>
-              <h5>Produk sekam dan arang sekam berkualitas tinggi dengan berbagai manfaat untuk pertanian, industri, dan peternakan.</h5>
+              <div class="icon"><i class="bi bi-bricks icon"></i></div>
+              <h2><a href="#products" class="stretched-link">Distribusi Bahan Konstruksi</a></h2>
+              <h5>Menyediakan bata merah Jatiwangi yang kuat dan tahan lama untuk berbagai kebutuhan pembangunan.</h5>
               <div class="service-features">
-                <div class="feature-item">
-                  <i class="bi bi-check-circle"></i>
-                  <span>Untuk Pertanian & Perkebunan</span>
-                </div>
-                <div class="feature-item">
-                  <i class="bi bi-check-circle"></i>
-                  <span>Untuk Berbagai Kebutuhan Industri</span>
-                </div>
-                <div class="feature-item">
-                  <i class="bi bi-check-circle"></i>
-                  <span>Untuk Pakan Ternak</span>
-                </div>
+                <div class="feature-item"><i class="bi bi-check-circle"></i><span>Bata Merah Jatiwangi</span></div>
+                <div class="feature-item"><i class="bi bi-check-circle"></i><span>Kuat dan tahan lama</span></div>
+                <div class="feature-item"><i class="bi bi-check-circle"></i><span>Untuk rumah, gedung, dan proyek</span></div>
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-xl-6 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="bi bi-droplet icon"></i></div>
+              <h2><a href="#products" class="stretched-link">Suplai Air Bersih Pegunungan</a></h2>
+              <h5>Layanan distribusi air bersih alami yang dapat digunakan untuk kebutuhan industri dan proyek tertentu.</h5>
+              <div class="service-features">
+                <div class="feature-item"><i class="bi bi-check-circle"></i><span>Sumber alami terjaga</span></div>
+                <div class="feature-item"><i class="bi bi-check-circle"></i><span>Untuk kebutuhan industri</span></div>
+                <div class="feature-item"><i class="bi bi-check-circle"></i><span>Distribusi terjadwal</span></div>
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-xl-6 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="400">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="bi bi-chat-dots icon"></i></div>
+              <h2><a href="#contact" class="stretched-link">Konsultasi Kebutuhan Material</a></h2>
+              <h5>Kami membantu Anda menentukan spesifikasi material yang tepat agar efisien dari sisi biaya dan performa.</h5>
+              <div class="service-features">
+                <div class="feature-item"><i class="bi bi-check-circle"></i><span>Konsultasi spesifikasi teknis</span></div>
+                <div class="feature-item"><i class="bi bi-check-circle"></i><span>Efisiensi biaya material</span></div>
+                <div class="feature-item"><i class="bi bi-check-circle"></i><span>Respons cepat &amp; profesional</span></div>
               </div>
             </div>
           </div><!-- End Service Item -->
@@ -238,94 +326,72 @@
       </div>
     </section><!-- /Services Section -->
 
-    <!-- Why Us Section -->
-    <section id="why-us" class="section why-us light-background" data-builder="section">
-      <div class="container-fluid">
-        <div class="row gy-4">
-          <div class="col-lg-7 d-flex flex-column justify-content-center order-2 order-lg-1">
-            <div class="content px-xl-5" data-aos="fade-up" data-aos-delay="100">
-              <h3><span>Mengapa Memilih </span><strong>ARDENTA ARCADIA GLOBAL?</strong></h3>
-              <p>Kami memahami bahwa setiap klien memiliki kebutuhan yang unik. Itulah mengapa kami berkomitmen untuk memberikan solusi yang tepat dan layanan terbaik.</p>
-            </div>
-            <div class="faq-container px-xl-5" data-aos="fade-up" data-aos-delay="200">
-              <div class="faq-item faq-active">
-                <h3><span>01</span> Bagaimana kualitas air bersih yang Anda sediakan?</h3>
-                <div class="faq-content">
-                  <p>Air bersih kami berasal dari sumber pegunungan terpilih dengan proses pengolahan modern yang memastikan kemurnian dan kualitas air tetap terjaga. Setiap batch produk melalui uji kualitas ketat sebelum dikirim ke pelanggan.</p>
-                </div>
-                <i class="faq-toggle bi bi-chevron-right"></i>
-              </div><!-- End Faq item-->
-
-              <div class="faq-item">
-                <h3><span>02</span> Apa keunggulan produk sekam dan arang sekam Anda?</h3>
-                <div class="faq-content">
-                  <p>Produk sekam dan arang sekam kami diproses dengan teknologi terkini untuk memastikan kualitas dan konsistensi. Kami menyediakan berbagai grade produk sesuai kebutuhan spesifik klien, dari pertanian hingga industri.</p>
-                </div>
-                <i class="faq-toggle bi bi-chevron-right"></i>
-              </div><!-- End Faq item-->
-
-              <div class="faq-item">
-                <h3><span>03</span> Apakah Anda melayani pengiriman ke seluruh Indonesia?</h3>
-                <div class="faq-content">
-                  <p>Ya, kami melayani pengiriman ke seluruh wilayah Indonesia dengan jaringan logistik yang andal. Kami memastikan produk sampai tepat waktu dan dalam kondisi optimal.</p>
-                </div>
-                <i class="faq-toggle bi bi-chevron-right"></i>
-              </div><!-- End Faq item-->
-            </div>
-          </div>
-          <div class="col-lg-5 order-1 order-lg-2 why-us-img">
-            <img src="assets/img/sekam/sekam-1.webp" class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="100">
-          </div>
-        </div>
-      </div>
-    </section><!-- /Why Us Section -->
-
     <!-- Products Section -->
     <section id="products" class="products section">
-      <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>Produk Kami</h2>
-        <p>Berbagai pilihan produk berkualitas untuk memenuhi kebutuhan Anda</p>
-      </div><!-- End Section Title -->
+        <p>Berbagai pilihan produk berkualitas untuk memenuhi kebutuhan industri dan konstruksi Anda</p>
+      </div>
 
       <div class="container">
         <div class="row gy-4">
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
             <div class="product-item">
               <div class="product-image">
-                <img src="assets/img/airbersih/air-industri.webp" alt="Air Bersih Pegunungan" class="img-fluid">
+                <img loading="lazy" src="assets/img/arangsekam/arang-sekam-1.webp" alt="Arang Sekam RHA" class="img-fluid">
               </div><hr>
               <div class="product-content">
-                <h3>Air Bersih Pegunungan</h3>
-                <p>Air bersih dengan kualitas premium dari sumber pegunungan terpilih, melalui proses penyaringan modern untuk menjaga kemurnian dan kandungan mineral alami.</p>
+                <h3>Arang Sekam (Rice Husk Ash / RHA)</h3>
+                <p>Produk unggulan dengan kandungan silika tinggi yang cocok untuk berbagai kebutuhan industri dan pertanian. Diproduksi dengan proses yang menjaga kualitas tetap konsisten.</p>
                 <div class="applications">
                   <h4>Aplikasi:</h4>
                   <ul>
-                    <li><i class="bi bi-check"></i> Kebutuhan air untuk pabrik dan industri</li>
-                    <li><i class="bi bi-check"></i> Pengisian dan perawatan kolam renang</li>
-                    <li><i class="bi bi-check"></i> Sumber air untuk depot air minum</li>
-                    <li><i class="bi bi-check"></i> Kebutuhan rumah tangga dan komersial</li>
+                    <li><i class="bi bi-check"></i> Bahan industri dengan kandungan silika tinggi</li>
+                    <li><i class="bi bi-check"></i> Media tanam untuk pertanian &amp; hortikultura</li>
+                    <li><i class="bi bi-check"></i> Campuran pakan ternak bernutrisi</li>
+                    <li><i class="bi bi-check"></i> Bahan bakar alternatif ramah lingkungan</li>
                   </ul>
                 </div>
               </div>
             </div>
           </div><!-- End Product Item -->
 
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
             <div class="product-item">
               <div class="product-image">
-                <img src="assets/img/sekam/sekam-2.webp" alt="Sekam dan Arang Sekam" class="img-fluid">
+                <img loading="lazy" src="assets/img/peternakan/peternakan-ayam.webp" alt="Bata Merah Jatiwangi" class="img-fluid">
               </div><hr>
               <div class="product-content">
-                <h3>Sekam & Arang Sekam</h3>
-                <p>Produk sekam dan arang sekam berkualitas tinggi dengan berbagai manfaat untuk pertanian, industri, dan peternakan.</p>
+                <h3>Bata Merah Jatiwangi</h3>
+                <p>Material konstruksi dengan kekuatan dan daya tahan tinggi, cocok untuk pembangunan rumah, gedung, dan proyek lainnya.</p>
                 <div class="applications">
                   <h4>Aplikasi:</h4>
                   <ul>
-                    <li><i class="bi bi-check"></i> Media tanam untuk pertanian dan perkebunan</li>
-                    <li><i class="bi bi-check"></i> Bahan baku untuk berbagai kebutuhan industri</li>
-                    <li><i class="bi bi-check"></i> Campuran pakan ternak bernutrisi tinggi</li>
-                    <li><i class="bi bi-check"></i> Bahan bakar alternatif yang ramah lingkungan</li>
+                    <li><i class="bi bi-check"></i> Pembangunan rumah tinggal</li>
+                    <li><i class="bi bi-check"></i> Konstruksi gedung dan fasilitas</li>
+                    <li><i class="bi bi-check"></i> Proyek infrastruktur skala menengah-besar</li>
+                    <li><i class="bi bi-check"></i> Renovasi dan pengembangan bangunan</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Product Item -->
+
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="300">
+            <div class="product-item">
+              <div class="product-image">
+                <img loading="lazy" src="assets/img/airbersih/air-industri.webp" alt="Air Bersih Pegunungan" class="img-fluid">
+              </div><hr>
+              <div class="product-content">
+                <h3>Air Bersih Pegunungan</h3>
+                <p>Air bersih dari sumber alami yang terjaga kualitasnya, siap untuk distribusi sesuai kebutuhan industri maupun proyek.</p>
+                <div class="applications">
+                  <h4>Aplikasi:</h4>
+                  <ul>
+                    <li><i class="bi bi-check"></i> Kebutuhan operasional pabrik &amp; industri</li>
+                    <li><i class="bi bi-check"></i> Suplai air untuk proyek konstruksi</li>
+                    <li><i class="bi bi-check"></i> Pengisian depot air minum</li>
+                    <li><i class="bi bi-check"></i> Kebutuhan komersial lainnya</li>
                   </ul>
                 </div>
               </div>
@@ -335,127 +401,174 @@
       </div>
     </section><!-- /Products Section -->
 
-        <section id="portfolio" class="portfolio section">
+    <!-- Why Us / Manfaat Section -->
+    <section id="why-us" class="section why-us light-background" data-builder="section">
+      <div class="container-fluid">
+        <div class="row gy-4">
+          <div class="col-lg-7 d-flex flex-column justify-content-center order-2 order-lg-1">
+            <div class="content px-xl-5" data-aos="fade-up" data-aos-delay="100">
+              <h3><span>Manfaat Menggunakan </span><strong>ARDENTA ARCADIA GLOBAL</strong></h3>
+              <p>Menggunakan layanan kami berarti mengurangi risiko operasional dan meningkatkan efisiensi proyek Anda.</p>
+            </div>
+            <div class="px-xl-5" data-aos="fade-up" data-aos-delay="200">
+              <div class="benefits-list">
+                <div class="benefit-item">
+                  <div class="benefit-icon"><i class="bi bi-patch-check"></i></div>
+                  <div class="benefit-text">
+                    <strong>Kualitas material lebih konsisten</strong>
+                    <span>Hasil kerja lebih stabil dan terukur setiap saat</span>
+                  </div>
+                </div>
+                <div class="benefit-item">
+                  <div class="benefit-icon"><i class="bi bi-boxes"></i></div>
+                  <div class="benefit-text">
+                    <strong>Pasokan terjamin</strong>
+                    <span>Proyek tidak terhambat karena ketersediaan material selalu terjaga</span>
+                  </div>
+                </div>
+                <div class="benefit-item">
+                  <div class="benefit-icon"><i class="bi bi-currency-dollar"></i></div>
+                  <div class="benefit-text">
+                    <strong>Efisiensi biaya jangka panjang</strong>
+                    <span>Mengurangi pemborosan akibat material tidak sesuai spesifikasi</span>
+                  </div>
+                </div>
+                <div class="benefit-item">
+                  <div class="benefit-icon"><i class="bi bi-lightning-charge"></i></div>
+                  <div class="benefit-text">
+                    <strong>Komunikasi jelas dan respons cepat</strong>
+                    <span>Tim kami siap membantu setiap pertanyaan dan kebutuhan Anda</span>
+                  </div>
+                </div>
+                <div class="benefit-item">
+                  <div class="benefit-icon"><i class="bi bi-handshake"></i></div>
+                  <div class="benefit-text">
+                    <strong>Partner yang fokus pada solusi</strong>
+                    <span>Bukan sekadar jual barang, kami mitra bisnis jangka panjang Anda</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-5 order-1 order-lg-2 why-us-img">
+            <img loading="lazy" src="assets/img/arangsekam/arang-sekam-3.webp" class="img-fluid" alt="Material berkualitas" data-aos="zoom-in" data-aos-delay="100">
+          </div>
+        </div>
+      </div>
+    </section><!-- /Why Us Section -->
 
-      <!-- Section Title -->
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio section">
       <div class="container section-title" data-aos="fade-up">
         <h2>Portfolio</h2>
-        <p>Dokumentasi karya yang merepresentasikan apa yang benar-benar bisa kami hasilkan</p>
-      </div><!-- End Section Title -->
+        <p>Beberapa proyek dan distribusi yang telah kami tangani</p>
+      </div>
 
       <div class="container">
-
         <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
-
           <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
             <li data-filter="*" class="filter-active">Semua</li>
-            <li data-filter=".filter-air-bersih">Air Besih</li>
-            <li data-filter=".filter-sekam">Sekam</li>
             <li data-filter=".filter-arang-sekam">Arang Sekam</li>
-          </ul><!-- End Portfolio Filters -->
+            <li data-filter=".filter-air-bersih">Air Bersih</li>
+            <li data-filter=".filter-sekam">Sekam</li>
+          </ul>
 
           <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
 
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-air-bersih">
-              <img src="assets/img/airbersih/air-industri.webp" class="img-fluid" alt="">
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-arang-sekam">
+              <img loading="lazy" src="assets/img/arangsekam/arang-sekam-1.webp" class="img-fluid" alt="Arang Sekam RHA">
               <div class="portfolio-info">
-                <h4>Air Bersih</h4>
-                <a href="assets/img/airbersih/air-industri.webp" title="Air Bersih" data-gallery="portfolio-gallery-air-bersih" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <!-- <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a> -->
+                <h4>Arang Sekam (RHA)</h4>
+                <p>Suplai untuk kebutuhan industri lokal</p>
+                <a href="assets/img/arangsekam/arang-sekam-1.webp" title="Arang Sekam RHA" data-gallery="portfolio-gallery-arang-sekam" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
               </div>
-            </div><!-- End Portfolio Item -->
+            </div>
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-arang-sekam">
-              <img src="assets/img/arangsekam/arang-sekam-1.webp" class="img-fluid" alt="">
+              <img loading="lazy" src="assets/img/arangsekam/arang-sekam-2.webp" class="img-fluid" alt="Arang Sekam">
               <div class="portfolio-info">
-                <h4>Arang Sekam</h4>
-                <p>Lorem ipsum, dolor sit</p>
-                <a href="assets/img/arangsekam/arang-sekam-1.webp" title="Arang Sekam" data-gallery="portfolio-gallery-arang-sekam" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <!-- <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a> -->
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-sekam">
-              <img src="assets/img/sekam/sekam-1.webp" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Sekam</h4>
-                <a href="assets/img/sekam/sekam-1.webp" title="Sekam" data-gallery="portfolio-gallery-sekam" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <!-- <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a> -->
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-air-bersih">
-              <img src="assets/img/airbersih/kolam-1.webp" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Air Bersih</h4>
-                <a href="assets/img/airbersih/kolam-1.webp" title="Air Bersih" data-gallery="portfolio-gallery-air-bersih" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <!-- <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a> -->
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-sekam">
-              <img src="assets/img/sekam/sekam-2.webp" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Sekam</h4>
-                <a href="assets/img/sekam/sekam-2.webp" title="Sekam" data-gallery="portfolio-gallery-sekam" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <!-- <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a> -->
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-arang-sekam">
-              <img src="assets/img/arangsekam/arang-sekam-2.webp" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Arang Sekam</h4>
+                <h4>Arang Sekam (RHA)</h4>
+                <p>Distribusi ke wilayah Majalengka dan sekitarnya</p>
                 <a href="assets/img/arangsekam/arang-sekam-2.webp" title="Arang Sekam" data-gallery="portfolio-gallery-arang-sekam" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <!-- <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a> -->
               </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-air-bersih">
-              <img src="assets/img/airbersih/kolam-2.webp" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Air Bersih</h4>
-                <a href="assets/img/airbersih/kolam-2.webp" title="Air Bersih" data-gallery="portfolio-gallery-air-bersih" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <!-- <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a> -->
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-sekam">
-              <img src="assets/img/sekam/sekam-3.webp" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Sekam</h4>
-                <a href="assets/img/sekam/sekam-3.webp" title="Sekam" data-gallery="portfolio-gallery-sekam" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <!-- <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a> -->
-              </div>
-            </div><!-- End Portfolio Item -->
+            </div>
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-arang-sekam">
-              <img src="assets/img/arangsekam/arang-sekam-3.webp" class="img-fluid" alt="">
+              <img loading="lazy" src="assets/img/arangsekam/arang-sekam-3.webp" class="img-fluid" alt="Arang Sekam">
               <div class="portfolio-info">
-                <h4>Arang Sekam</h4>
-                <!-- <p>Lorem ipsum, dolor sit</p> -->
+                <h4>Arang Sekam (RHA)</h4>
+                <p>Pasokan skala besar untuk industri</p>
                 <a href="assets/img/arangsekam/arang-sekam-3.webp" title="Arang Sekam" data-gallery="portfolio-gallery-arang-sekam" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <!-- <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a> -->
               </div>
-            </div><!-- End Portfolio Item -->
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-air-bersih">
+              <img loading="lazy" src="assets/img/airbersih/air-industri.webp" class="img-fluid" alt="Air Bersih Industri">
+              <div class="portfolio-info">
+                <h4>Air Bersih</h4>
+                <p>Suplai air untuk kebutuhan operasional proyek</p>
+                <a href="assets/img/airbersih/air-industri.webp" title="Air Bersih Industri" data-gallery="portfolio-gallery-air-bersih" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-air-bersih">
+              <img loading="lazy" src="assets/img/airbersih/kolam-1.webp" class="img-fluid" alt="Air Bersih Kolam">
+              <div class="portfolio-info">
+                <h4>Air Bersih</h4>
+                <p>Distribusi air bersih pegunungan</p>
+                <a href="assets/img/airbersih/kolam-1.webp" title="Air Bersih" data-gallery="portfolio-gallery-air-bersih" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-air-bersih">
+              <img loading="lazy" src="assets/img/airbersih/kolam-2.webp" class="img-fluid" alt="Air Bersih">
+              <div class="portfolio-info">
+                <h4>Air Bersih</h4>
+                <p>Suplai untuk berbagai kebutuhan</p>
+                <a href="assets/img/airbersih/kolam-2.webp" title="Air Bersih" data-gallery="portfolio-gallery-air-bersih" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-sekam">
+              <img loading="lazy" src="assets/img/sekam/sekam-1.webp" class="img-fluid" alt="Sekam">
+              <div class="portfolio-info">
+                <h4>Sekam</h4>
+                <p>Bahan baku industri dan pertanian</p>
+                <a href="assets/img/sekam/sekam-1.webp" title="Sekam" data-gallery="portfolio-gallery-sekam" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-sekam">
+              <img loading="lazy" src="assets/img/sekam/sekam-2.webp" class="img-fluid" alt="Sekam">
+              <div class="portfolio-info">
+                <h4>Sekam</h4>
+                <p>Distribusi ke area pertanian</p>
+                <a href="assets/img/sekam/sekam-2.webp" title="Sekam" data-gallery="portfolio-gallery-sekam" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-sekam">
+              <img loading="lazy" src="assets/img/sekam/sekam-3.webp" class="img-fluid" alt="Sekam">
+              <div class="portfolio-info">
+                <h4>Sekam</h4>
+                <p>Pasokan stabil untuk berbagai sektor</p>
+                <a href="assets/img/sekam/sekam-3.webp" title="Sekam" data-gallery="portfolio-gallery-sekam" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+              </div>
+            </div>
 
           </div><!-- End Portfolio Container -->
-
         </div>
-
       </div>
-
     </section><!-- /Portfolio Section -->
-
 
     <!-- Call To Action Section -->
     <section id="call-to-action" class="call-to-action section dark-background">
-      <img src="assets/img/arangsekam/arang-sekam-3.webp" alt="">
+      <img loading="lazy" src="assets/img/arangsekam/arang-sekam-3.webp" alt="">
       <div class="container">
         <div class="row" data-aos="zoom-in" data-aos-delay="100">
           <div class="col-xl-9 text-center text-xl-start">
             <h3>Siap Bekerja Sama dengan Kami?</h3>
-            <p>Dapatkan solusi terbaik untuk kebutuhan air bersih dan produk sekam Anda. Tim profesional kami siap memberikan layanan terbaik dan konsultasi gratis sesuai kebutuhan bisnis Anda.</p>
+            <p>Dapatkan solusi material industri dan konstruksi terbaik untuk bisnis Anda. Tim profesional kami siap memberikan penawaran dan konsultasi gratis sesuai kebutuhan spesifik Anda.</p>
           </div>
           <div class="col-xl-3 cta-btn-container text-center">
             <a class="cta-btn align-middle" href="#contact">Hubungi Kami Sekarang</a>
@@ -466,98 +579,69 @@
 
     <!-- Team Section -->
     <section id="team" class="team section">
-
-      <!-- Section Title -->
-      <div class="container section-title light-background" data-aos="fade-up">
-        <h2>Team</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-      </div><!-- End Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Tim Kami</h2>
+        <p>Tim profesional berpengalaman dalam pengelolaan material dan distribusi</p>
+      </div>
 
       <div class="container">
-
         <div class="row gy-4">
 
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
             <div class="team-member d-flex align-items-start">
-              <div class="pic"><img src="assets/img/person/person-m-7.webp" class="img-fluid" alt=""></div>
+              <div class="pic"><img loading="lazy" src="assets/img/person/person-m-7.webp" class="img-fluid" alt="Direktur"></div>
               <div class="member-info">
-                <h4>Walter White</h4>
-                <span>Chief Executive Officer</span>
-                <p>Explicabo voluptatem mollitia et repellat qui dolorum quasi</p>
+                <h4>Direktur</h4>
+                <span>Pimpinan Perusahaan</span>
+                <p>Bertanggung jawab dalam pengambilan keputusan strategis dan pengembangan kemitraan bisnis.</p>
                 <div class="social">
-                  <a href=""><i class="bi bi-twitter-x"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""> <i class="bi bi-linkedin"></i> </a>
+                  <a href="https://wa.me/6281220086470" target="_blank"><i class="bi bi-whatsapp"></i></a>
+                  <a href="mailto:ptardentaarcadiaglobal@gmail.com"><i class="bi bi-envelope"></i></a>
                 </div>
               </div>
             </div>
           </div><!-- End Team Member -->
 
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
             <div class="team-member d-flex align-items-start">
-              <div class="pic"><img src="assets/img/person/person-f-8.webp" class="img-fluid" alt=""></div>
+              <div class="pic"><img loading="lazy" src="assets/img/person/person-m-9.webp" class="img-fluid" alt="Tim Operasional"></div>
               <div class="member-info">
-                <h4>Sarah Jhonson</h4>
-                <span>Product Manager</span>
-                <p>Aut maiores voluptates amet et quis praesentium qui senda para</p>
+                <h4>Tim Operasional</h4>
+                <span>Distribusi &amp; Logistik</span>
+                <p>Mengelola distribusi, logistik, dan memastikan pengiriman material tepat waktu ke seluruh wilayah.</p>
                 <div class="social">
-                  <a href=""><i class="bi bi-twitter-x"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""> <i class="bi bi-linkedin"></i> </a>
+                  <a href="https://wa.me/6281220086470" target="_blank"><i class="bi bi-whatsapp"></i></a>
+                  <a href="mailto:ptardentaarcadiaglobal@gmail.com"><i class="bi bi-envelope"></i></a>
                 </div>
               </div>
             </div>
           </div><!-- End Team Member -->
 
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="300">
             <div class="team-member d-flex align-items-start">
-              <div class="pic"><img src="assets/img/person/person-m-6.webp" class="img-fluid" alt=""></div>
+              <div class="pic"><img loading="lazy" src="assets/img/person/person-m-6.webp" class="img-fluid" alt="Tim Produksi QC"></div>
               <div class="member-info">
-                <h4>William Anderson</h4>
-                <span>CTO</span>
-                <p>Quisquam facilis cum velit laborum corrupti fuga rerum quia</p>
+                <h4>Tim Produksi &amp; QC</h4>
+                <span>Quality Control</span>
+                <p>Menjaga kualitas produk agar sesuai dengan standar yang telah ditetapkan untuk setiap batch produksi.</p>
                 <div class="social">
-                  <a href=""><i class="bi bi-twitter-x"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""> <i class="bi bi-linkedin"></i> </a>
-                </div>
-              </div>
-            </div>
-          </div><!-- End Team Member -->
-
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
-            <div class="team-member d-flex align-items-start">
-              <div class="pic"><img src="assets/img/person/person-f-4.webp" class="img-fluid" alt=""></div>
-              <div class="member-info">
-                <h4>Amanda Jepson</h4>
-                <span>Accountant</span>
-                <p>Dolorum tempora officiis odit laborum officiis et et accusamus</p>
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter-x"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""> <i class="bi bi-linkedin"></i> </a>
+                  <a href="https://wa.me/6281220086470" target="_blank"><i class="bi bi-whatsapp"></i></a>
+                  <a href="mailto:ptardentaarcadiaglobal@gmail.com"><i class="bi bi-envelope"></i></a>
                 </div>
               </div>
             </div>
           </div><!-- End Team Member -->
 
         </div>
-
       </div>
-
     </section><!-- /Team Section -->
 
     <!-- Testimonials Section -->
     <section id="testimonials" class="testimonials section">
-      <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>Testimoni Klien</h2>
         <p>Apa kata klien tentang layanan dan produk kami</p>
-      </div><!-- End Section Title -->
+      </div>
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
         <div class="swiper init-swiper">
@@ -565,21 +649,15 @@
             {
               "loop": true,
               "speed": 600,
-              "autoplay": {
-                "delay": 5000
-              },
+              "autoplay": { "delay": 5000 },
               "slidesPerView": "auto",
-              "pagination": {
-                "el": ".swiper-pagination",
-                "type": "bullets",
-                "clickable": true
-              }
+              "pagination": { "el": ".swiper-pagination", "type": "bullets", "clickable": true }
             }
           </script>
           <div class="swiper-wrapper">
             <div class="swiper-slide">
               <div class="testimonial-item">
-                <img src="assets/img/testimoni/testimoni1.jpeg" class="testimonial-img" alt="">
+                <img loading="lazy" src="assets/img/testimoni/testimoni1.jpeg" class="testimonial-img" alt="">
                 <h3>Fauzi</h3>
                 <h4>Pemilik Pabrik Tekstil</h4>
                 <div class="stars">
@@ -587,31 +665,31 @@
                 </div>
                 <p>
                   <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Kualitas air dari ARDENTA sangat konsisten dan membantu proses produksi kami. Layanan pengiriman juga tepat waktu. Sangat recommended!</span>
+                  <span>Kualitas material dari ARDENTA sangat konsisten dan membantu proses produksi kami. Pasokan selalu tepat waktu dan tidak pernah terlambat. Sangat direkomendasikan!</span>
                   <i class="bi bi-quote quote-icon-right"></i>
                 </p>
               </div>
-            </div><!-- End testimonial item -->
+            </div>
 
             <div class="swiper-slide">
               <div class="testimonial-item">
-                <img src="assets/img/person/person-f-5.webp" class="testimonial-img" alt="">
+                <img loading="lazy" src="assets/img/person/person-f-5.webp" class="testimonial-img" alt="">
                 <h3>Sari Dewi</h3>
-                <h4>Pemilik Depot Air Minum</h4>
+                <h4>Kontraktor Bangunan</h4>
                 <div class="stars">
                   <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                 </div>
                 <p>
                   <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Sejak menggunakan air dari ARDENTA, pelanggan depot saya meningkat. Kualitas airnya benar-benar terasa berbeda dan pelanggan puas.</span>
+                  <span>Bata merah dari ARDENTA kualitasnya terjaga dan pasokannya stabil. Proyek kami tidak pernah terhambat karena ketersediaan material yang selalu terpenuhi.</span>
                   <i class="bi bi-quote quote-icon-right"></i>
                 </p>
               </div>
-            </div><!-- End testimonial item -->
+            </div>
 
             <div class="swiper-slide">
               <div class="testimonial-item">
-                <img src="assets/img/person/person-f-12.webp" class="testimonial-img" alt="">
+                <img loading="lazy" src="assets/img/person/person-f-12.webp" class="testimonial-img" alt="">
                 <h3>Maya Indah</h3>
                 <h4>Petani Hortikultura</h4>
                 <div class="stars">
@@ -619,11 +697,11 @@
                 </div>
                 <p>
                   <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Arang sekam dari ARDENTA sangat membantu meningkatkan kualitas media tanam saya. Tanaman tumbuh lebih sehat dan hasil panen meningkat.</span>
+                  <span>Arang sekam dari ARDENTA sangat membantu meningkatkan kualitas media tanam saya. Kualitas konsisten dan tim mereka sangat responsif dalam melayani.</span>
                   <i class="bi bi-quote quote-icon-right"></i>
                 </p>
               </div>
-            </div><!-- End testimonial item -->
+            </div>
           </div>
           <div class="swiper-pagination"></div>
         </div>
@@ -632,11 +710,10 @@
 
     <!-- Contact Section -->
     <section id="contact" class="contact section">
-      <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>Kontak Kami</h2>
-        <p>Hubungi kami untuk informasi lebih lanjut atau konsultasi gratis</p>
-      </div><!-- End Section Title -->
+        <p>Hubungi kami sekarang untuk konsultasi dan penawaran terbaik sesuai kebutuhan Anda</p>
+      </div>
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
         <div class="row gy-4">
@@ -646,21 +723,21 @@
                 <i class="bi bi-geo-alt flex-shrink-0"></i>
                 <div>
                   <h3>Alamat</h3>
-                  <p>Jl. Gunung Sari No. 123</p>
-                  <p>Desa Gunung Sari Kec.Kasokandel Kab.Majalengka</p>
+                  <p>Desa Gunungsari Blok Rabu RT 02 RW 01</p>
+                  <p>Kec. Kasokandel, Kab. Majalengka</p>
+                  <p>Provinsi Jawa Barat, Indonesia</p>
                 </div>
               </div><!-- End Info Item -->
 
               <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
-                <i class="bi bi-telephone flex-shrink-0"></i>
+                <i class="bi bi-whatsapp flex-shrink-0"></i>
                 <div>
-                  <h3>Telepon</h3>
+                  <h3>WhatsApp</h3>
                   <p>
-                    <a href="tel:+6281395501785">
-                      +6281395501785
+                    <a href="https://wa.me/6281220086470?text=Halo%20PT%20ARDENTA%20ARCADIA%20GLOBAL%2C%20saya%20ingin%20konsultasi%20kebutuhan%20material" target="_blank">
+                      081220086470
                     </a>
                   </p>
-
                 </div>
               </div><!-- End Info Item -->
 
@@ -669,8 +746,8 @@
                 <div>
                   <h3>Email</h3>
                   <p>
-                    <a href="mailto:ardentaarcadiaglobal@gmail.com">
-                      ardentaarcadiaglobal@gmail.com
+                    <a href="mailto:ptardentaarcadiaglobal@gmail.com">
+                      ptardentaarcadiaglobal@gmail.com
                     </a>
                   </p>
                 </div>
@@ -680,9 +757,9 @@
 
           <div class="col-lg-7">
             <div class="info-wrap">
-              <iframe 
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31644.1234567!2d108.22944!3d-6.75028!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xundefined%3A0xundefined!2sGunungsari%2C%20Kasokandel%2C%20Majalengka%2C%20Jawa%20Barat!5e0!3m2!1sid!2sid!4v1690000000000!5m2!1sid!2sid" 
-                frameborder="0" style="border:0; width: 100%; height: 320px;" allowfullscreen="" 
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.1234!2d108.22944!3d-6.75028!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sGunungsari%2C%20Kasokandel%2C%20Majalengka%2C%20Jawa%20Barat!5e0!3m2!1sid!2sid!4v1690000000000!5m2!1sid!2sid"
+                frameborder="0" style="border:0; width: 100%; height: 320px;" allowfullscreen=""
                 loading="lazy" referrerpolicy="no-referrer-when-downgrade">
               </iframe>
             </div>
@@ -690,6 +767,7 @@
         </div>
       </div>
     </section><!-- /Contact Section -->
+
   </main>
 
   <footer id="footer" class="footer">
@@ -697,14 +775,14 @@
       <div class="row gy-4">
         <div class="col-lg-4 col-md-6 footer-about">
           <a href="index.html" class="d-flex align-items-center">
-            <span class="sitename">ARDENTA</span>
+            <span class="sitename">ARDENTA ARCADIA GLOBAL</span>
           </a>
           <div class="footer-contact pt-3">
-            <p>Jl. Gunung Sari No. 123</p>
-            <p>Desa Gunung Sari Kec.Kasokandel Kab.Majalengka</p> 
-             <p>Provinsi Jawa Barat, Indonesia</p>
-            <p class="mt-3"><strong>Telepon:</strong> <span>+6281395501785</span></p>
-            <p><strong>Email:</strong> <span>ardentaarcadiaglobal@gmail.com</span></p>
+            <p>Desa Gunungsari Blok Rabu RT 02 RW 01</p>
+            <p>Kec. Kasokandel, Kab. Majalengka</p>
+            <p>Provinsi Jawa Barat, Indonesia</p>
+            <p class="mt-3"><strong>WhatsApp:</strong> <span>081220086470</span></p>
+            <p><strong>Email:</strong> <span>ptardentaarcadiaglobal@gmail.com</span></p>
           </div>
         </div>
         <div class="col-lg-2 col-md-3 footer-links">
@@ -714,36 +792,37 @@
             <li><i class="bi bi-chevron-right"></i> <a href="#about">Tentang Kami</a></li>
             <li><i class="bi bi-chevron-right"></i> <a href="#services">Layanan</a></li>
             <li><i class="bi bi-chevron-right"></i> <a href="#products">Produk</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#portfolio">Portfolio</a></li>
           </ul>
         </div>
 
         <div class="col-lg-2 col-md-3 footer-links">
           <h4>Layanan Kami</h4>
           <ul>
+            <li><i class="bi bi-chevron-right"></i> <a href="#services">Arang Sekam (RHA)</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#services">Bata Merah Jatiwangi</a></li>
             <li><i class="bi bi-chevron-right"></i> <a href="#services">Air Bersih</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#services">Sekam & Arang</a></li>
             <li><i class="bi bi-chevron-right"></i> <a href="#contact">Konsultasi</a></li>
           </ul>
         </div>
 
         <div class="col-lg-4 col-md-12">
-          <h4>Ikuti Kami</h4>
-          <p>Dapatkan informasi terbaru tentang produk dan layanan kami melalui media sosial.</p>
+          <h4>Hubungi Kami</h4>
+          <p>Konsultasikan kebutuhan material industri dan konstruksi Anda bersama kami.</p>
           <div class="social-links d-flex">
             <a href=""><i class="bi bi-facebook"></i></a>
             <a href=""><i class="bi bi-instagram"></i></a>
             <a href=""><i class="bi bi-linkedin"></i></a>
-            <a href="https://wa.me/+6281395501785?text=Halo%20PT%20ARDENTA%20ARCADIA%20GLOBAL" target="_blank">
+            <a href="https://wa.me/6281220086470?text=Halo%20PT%20ARDENTA%20ARCADIA%20GLOBAL%2C%20saya%20ingin%20konsultasi" target="_blank">
               <i class="bi bi-whatsapp"></i>
             </a>
-
           </div>
         </div>
       </div>
     </div>
 
     <div class="container copyright text-center mt-4">
-      <p>© <span>Copyright 2025</span> <strong class="px-1 sitename">ARDENTA ARCADIA GLOBAL</strong> <span>All Rights Reserved</span></p>
+      <p>Â© <span>Copyright 2026</span> <strong class="px-1 sitename">ARDENTA ARCADIA GLOBAL</strong> <span>All Rights Reserved</span></p>
     </div>
   </footer>
 
@@ -767,3 +846,5 @@
   <script src="assets/js/main.js"></script>
 </body>
 </html>
+
+
